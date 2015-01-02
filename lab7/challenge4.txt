@@ -1,0 +1,12 @@
+List challenge problems completed as part of the lab 4 handin, as well
+as the problem number.  If you worked any previous lab challenges and
+submitted them with this lab, list them here, along with the lab number.
+
+challenge 5:
+I have made the processor exceptions to be handled by a user exception handler.You can execute a program with divide by zero, You will see a message divide by zero and proper flow.Without out crash or trap. Similarly for GPF.
+
+
+Challenge 6: 
+
+Implemented the sfork by sharing all the pages of the parent to the child. Tested the forktree use case. In pingpong because the golbal env is shared we will face issue as all the global data is shared.I am using one more global variable shared which identifies whether we have done sfork or fork. There by in the ipc_recv i am making sys_getenvid to get the current envid and updating and sending to the caller env.
+You can see the codes changes in lib/fork.c , lib/ipc.c,lib/libmain.c,inc/lib.h

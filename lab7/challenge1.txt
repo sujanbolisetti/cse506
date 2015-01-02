@@ -1,0 +1,5 @@
+List challenge problems completed as part of the lab 1 handin, as well
+as the problem number.
+
+challenge 1 of Lab1 :
+  Made the console to interpret the color sequences.Used ANSI escape sequences technique. Run make qemu-nox you should see the text in RED.

@@ -1,0 +1,1 @@
+I have written the characters/strings into the videoRam --> 0xb8000, I am able to write to the physical address by adding KERNBASE to get the virtual and i have writtenthere. First byte represents the charater and the second byte represents the color. This is the way I have achieved displaying colors on the console.
